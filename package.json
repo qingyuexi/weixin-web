@@ -1,0 +1,33 @@
+{
+	"name": "qingyuexi-weixin-web",
+	"version": "0.0.1",
+	"description": "网页版微信api",
+	"main": "index.js",
+	"scripts": {
+		"start": "DEBUG=* node index.js",
+		"test": "node test/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/qingyuexi/weixin-web.git"
+	},
+	"keywords": [
+		"qingyuexi",
+		"weixin-web"
+	],
+	"author": "qingyuexi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/qingyuexi/weixin-web/issues"
+	},
+	"dependencies": {
+		"axios": "^0.16.2",
+		"bl": "^1.2.1",
+		"debug": "^3.0.1",
+		"form-data": "^2.3.1",
+		"lodash": "^4.17.4",
+		"mime": "^2.0.1",
+		"qrcode-terminal": "^0.11.0",
+		"request": "^2.81.0"
+	}
+}
